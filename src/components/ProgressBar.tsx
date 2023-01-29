@@ -11,7 +11,7 @@ export function ProgressBar({ progress }: ProgressBarProps) {
         aria-label="Progresso de hábitos completos nesse dia"
         aria-valuenow={progress}
         style={{
-          width: `${progress}%`,
+          width: `${progress}%`
         }}
       />
     </div>
